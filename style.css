@@ -1,0 +1,53 @@
+
+body {
+max-width: 1000px;
+margin: 0 auto;
+height: calc(100vh - 200px);
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+
+}
+
+#navigation {
+    background-color: white;
+    width: full;
+}
+
+.imgBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature {
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+.row2 {
+    display: flex;
+}
+
+
+#full-width {
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+
+#imgfeature {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+}
